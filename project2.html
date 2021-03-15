@@ -4,15 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
     <title>Click here to view Six degree seperation Analysis of product</title>
 </head>
+<style>
+    h1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+    }
+    div{
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+    }
+    .cl1{
+        background-color: black; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    }
+</style>
 <body>
-    <form>
-        <label for="lab1">Enter the product to Analyse</label><br>
+    <form autocomplete="off">
+        <br><br><br><br>
+        <h1 for="lab1">Enter the product to Analyse</h1>
+        <br><br>
+        <br>
+        <div>
         <input type="text" id = "lab1"><br>
-        <input type="submit" value="submit" id="sub" class="cl1"><br>
+        <br><br><br>
+        <input type="submit" value="Submit" id="sub" class="cl1" autocomplete="false"><br>
     </form>
-
+</div>
    
     <script src="proj2.js"></script>
 </body>
